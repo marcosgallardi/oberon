@@ -1,0 +1,86 @@
+//variables//
+
+$primary: #FF6F00;
+
+$danger:#FF6F00;
+$info:#ff7f00;
+$success:#ff8f00;
+
+//bootstrap//
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+//bootstrap Icons//
+
+@import '../node_modules/bootstrap-icons/font/bootstrap-icons.scss';
+
+
+//styles//
+
+
+
+.bg-home{
+  background: #FDC830;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #F37335, #FDC830);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #F37335, #FDC830); 
+
+}
+
+
+
+.bg-info{
+  background: #FDC830;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #F37335, #FDC830);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #F37335, #FDC830); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+.img-logo{
+  width: 100px;
+}
+@media (min-width: 769px) { 
+  .img-logo{
+    width: 150px;
+  }
+ }
+
+
+
+
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #000000 #FF8F00;
+}
+
+/* Chrome, Edge and Safari */
+*::-webkit-scrollbar {
+  width: 8px;
+  width: 8px;
+}
+*::-webkit-scrollbar-track {
+  border-radius: 5px;
+  background-color: #FF8F00;
+}
+
+*::-webkit-scrollbar-track:hover {
+  background-color: #FF6F00;
+}
+
+*::-webkit-scrollbar-track:active {
+  background-color: #000000;
+}
+
+*::-webkit-scrollbar-thumb {
+  border-radius: 0px;
+  background-color: #000000;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background-color: #FF6F00;
+}
+
+*::-webkit-scrollbar-thumb:active {
+  background-color: #FF6F00;;
+}
+
